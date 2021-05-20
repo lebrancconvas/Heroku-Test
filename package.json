@@ -1,11 +1,14 @@
 {
-  "name": "heroku-test",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/lebrancconvas/Heroku-Test.git",
-  "author": "Poom Yimyuean <lebrancconvas@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "heroku-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": "https://github.com/lebrancconvas/Heroku-Test.git",
+    "author": "Poom Yimyuean <lebrancconvas@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
